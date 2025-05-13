@@ -1,0 +1,16 @@
+{
+  "name": "ai-devs",
+  "type": "module",
+  "scripts": {
+    "captcha-destroyer": "bun run captcha-destroyer/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.98.0"
+  }
+}
