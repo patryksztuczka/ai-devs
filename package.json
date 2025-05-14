@@ -2,7 +2,8 @@
   "name": "ai-devs",
   "type": "module",
   "scripts": {
-    "captcha-destroyer": "bun run captcha-destroyer/index.ts"
+    "captcha-destroyer": "bun run captcha-destroyer/index.ts",
+    "identity-verification": "bun run identity-verification/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -11,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "openai": "^4.98.0"
+    "openai": "^4.98.0",
+    "zod": "^3.24.4"
   }
 }
