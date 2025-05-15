@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "captcha-destroyer": "bun run captcha-destroyer/index.ts",
-    "identity-verification": "bun run identity-verification/index.ts"
+    "identity-verification": "bun run identity-verification/index.ts",
+    "calibration-file-fix": "bun run calibration-file-fix/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
