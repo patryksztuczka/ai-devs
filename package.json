@@ -4,7 +4,8 @@
   "scripts": {
     "captcha-destroyer": "bun run captcha-destroyer/index.ts",
     "identity-verification": "bun run identity-verification/index.ts",
-    "calibration-file-fix": "bun run calibration-file-fix/index.ts"
+    "calibration-file-fix": "bun run calibration-file-fix/index.ts",
+    "censorship": "bun run censorship/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
