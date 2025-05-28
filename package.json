@@ -6,7 +6,8 @@
     "identity-verification": "bun run identity-verification/index.ts",
     "calibration-file-fix": "bun run calibration-file-fix/index.ts",
     "censorship": "bun run censorship/index.ts",
-    "reports": "bun run reports/index.ts"
+    "reports": "bun run reports/index.ts",
+    "multimodal": "bun run multimodal/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -15,6 +16,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "node-html-markdown": "^1.3.0",
+    "node-html-parser": "^7.0.1",
     "openai": "^4.98.0",
     "path": "^0.12.7",
     "zod": "^3.24.4"

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "rynek.png",
+    "description": "<opis_obrazu>Zdjęcie przedstawia widok na kościół w tle, z ciemnym niebem pokrytym chmurami oraz słońcem na horyzoncie. Na pierwszym planie widać plac z kamienną nawierzchnią, na którym zgromadziło się kilka osób, a także ptaki, które spacerują po ziemi. W tle widać wieżę kościoła oraz sylwetki budynków. Całość utrzymana jest w czarno-białej tonacji, co podkreśla atmosferę zdjęcia.</opis_obrazu>"
+  },
+  {
+    "file": "rynek_glitch.png",
+    "description": "<opis_obrazu>Zdjęcie przedstawia scenę miejską, w której widać ludzi spacerujących po placu przy zachodzie słońca. Na niebie znajdują się chmury oraz ptaki, a w tle wznoszą się budynki z wieżą. Całość ma stonowaną kolorystykę, z dominującymi ciemnymi odcieniami. W prawym pasku obrazu występują zniekształcenia graficzne, które wpływają na jakość przedstawienia.</opis_obrazu>"
+  },
+  {
+    "file": "fruit01.png",
+    "description": "<opis_obrazu>Na zdjęciu widoczna jest truskawka leżąca na metalowej powierzchni. Jest czarno-biała, z kroplami wody na jej powierzchni, co nadaje jej świeży wygląd. Truskawka ma zielone liście na górze. Tło jest rozmyte, z niewyraźnymi konturami innych obiektów w pomieszczeniu.</opis_obrazu>"
+  },
+  {
+    "file": "fruit02.png",
+    "description": "<opis_obrazu>Na zdjęciu widoczna jest truskawka leżąca na metalowym blacie. Jest to owoc w kolorze czerwonym, pokryty drobnymi kropeczkami, z zielonymi liśćmi na górze. Blat odbija delikatnie jej cień, a w tle widać zamazaną sylwetkę kuchni. Całość utrzymana jest w czarno-białej tonacji.</opis_obrazu>"
+  },
+  {
+    "file": "strangefruit.png",
+    "description": "<opis_obrazu>Obrazek przedstawia dużą truskawkę o kształcie serca, w czarnym odcieniu i z połyskującą powierzchnią. Owoc ma charakterystyczne, małe kropeczki, które są typowe dla truskawek, oraz zielone listki na szczycie. Tło jest jednolite, co podkreśla kształt i detal powierzchni owocu.</opis_obrazu>"
+  },
+  {
+    "file": "resztki.png",
+    "description": "<opis_obrazu>Na zdjęciu widać talerz z resztkami pizzy. Pizza jest podzielone na kilka kawałków, z których część została zjedzona. Kawałki pizzy wyglądają na jeszcze ciepłe i chrupiące, a wokół nich widoczne są okruchy. Tło zdjęcia jest w odcieniach czerni i bieli, co nadaje mu nostalgiczny klimat.</opis_obrazu>"
+  }
+]
