@@ -7,7 +7,8 @@
     "calibration-file-fix": "bun run calibration-file-fix/index.ts",
     "censorship": "bun run censorship/index.ts",
     "reports": "bun run reports/index.ts",
-    "multimodal": "bun run multimodal/index.ts"
+    "multimodal": "bun run multimodal/index.ts",
+    "facts-and-reports": "bun run facts-and-reports/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -16,6 +17,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.3",
     "node-html-markdown": "^1.3.0",
     "node-html-parser": "^7.0.1",
     "openai": "^4.98.0",
