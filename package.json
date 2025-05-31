@@ -9,7 +9,8 @@
     "reports": "bun run reports/index.ts",
     "multimodal": "bun run multimodal/index.ts",
     "facts-and-reports": "bun run facts-and-reports/index.ts",
-    "vector-search": "bun run vector-search/index.ts"
+    "vector-search": "bun run vector-search/index.ts",
+    "hybrid-search": "bun run hybrid-search/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
