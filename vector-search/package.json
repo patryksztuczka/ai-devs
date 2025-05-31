@@ -1,0 +1,16 @@
+{
+  "name": "vector-search",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.15",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.16"
+  }
+} 
