@@ -21,7 +21,12 @@ export async function sendAnswerToAPI(task: string, answer: any) {
     });
 
     const result = await response.json();
+
     console.log(chalk.gray("API response:", JSON.stringify(result, null, 2)));
+    return result as {
+      code: number;
+      message: string;
+    };
   } catch (error) {
     console.error(chalk.red("Failed to send answer to API:"), error);
   }
