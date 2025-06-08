@@ -25,7 +25,7 @@ export class OpenAiService {
 
   public async response(
     input: OpenAI.Responses.ResponseInput,
-    model: string = "gpt-4o-nano",
+    model: string = "gpt-4o",
     stream: boolean = false
   ) {
     const response = await this.openai.responses.create({

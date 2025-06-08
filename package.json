@@ -12,7 +12,8 @@
     "vector-search": "bun run vector-search/index.ts",
     "hybrid-search": "bun run hybrid-search/index.ts",
     "data-sources": "bun run data-sources/index.ts",
-    "shortest-path": "bun run shortest-path/index.ts"
+    "shortest-path": "bun run shortest-path/index.ts",
+    "photos": "bun run photos/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
