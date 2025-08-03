@@ -16,15 +16,18 @@
     "photos": "bun run photos/index.ts",
     "research": "bun run research/index.ts",
     "softo": "bun run softo/index.ts",
-    "flight": "bun run flight/index.ts"
+    "flight": "bun run flight/index.ts",
+    "notes": "bun run notes/index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/pdf-parse": "^1.1.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@google/genai": "^1.12.0",
     "@qdrant/js-client-rest": "^1.14.1",
     "chalk": "^5.4.1",
     "inquirer": "^12.6.3",
@@ -33,6 +36,11 @@
     "node-html-parser": "^7.0.1",
     "openai": "^4.98.0",
     "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.2.0",
     "zod": "^3.24.4"
+  },
+  "patchedDependencies": {
+    "pdf-parse@1.1.1": "patches/pdf-parse@1.1.1.patch"
   }
 }
